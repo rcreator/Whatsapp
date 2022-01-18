@@ -1,0 +1,25 @@
+.SidebarChat {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  font-size: 12px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.SidebarChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChat_info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 26vw;
+}
+.sidebarChat_info p,
+h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
